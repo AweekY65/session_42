@@ -1,0 +1,12 @@
+[project]
+name = "example-py-app"
+version = "0.4.2"
+description = "Offline example Python project for the local SBOM tool"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31,<3",
+    "click~=8.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]

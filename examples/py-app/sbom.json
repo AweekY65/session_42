@@ -1,0 +1,268 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "python:certifi@2024.2.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "name": "certifi",
+      "properties": [
+        {
+          "name": "localsbom:ecosystem",
+          "value": "python"
+        },
+        {
+          "name": "localsbom:source",
+          "value": "lock"
+        },
+        {
+          "name": "localsbom:declared-constraint",
+          "value": ""
+        },
+        {
+          "name": "localsbom:evidence",
+          "value": "/mnt2/zjh/code/Goleta/session_42/a/examples/py-app/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/certifi@2024.2.2",
+      "scope": "required",
+      "type": "library",
+      "version": "2024.2.2"
+    },
+    {
+      "bom-ref": "python:charset-normalizer@3.3.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "charset-normalizer",
+      "properties": [
+        {
+          "name": "localsbom:ecosystem",
+          "value": "python"
+        },
+        {
+          "name": "localsbom:source",
+          "value": "lock"
+        },
+        {
+          "name": "localsbom:declared-constraint",
+          "value": ""
+        },
+        {
+          "name": "localsbom:evidence",
+          "value": "/mnt2/zjh/code/Goleta/session_42/a/examples/py-app/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/charset-normalizer@3.3.2",
+      "scope": "required",
+      "type": "library",
+      "version": "3.3.2"
+    },
+    {
+      "bom-ref": "python:click@8.1.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "click",
+      "properties": [
+        {
+          "name": "localsbom:ecosystem",
+          "value": "python"
+        },
+        {
+          "name": "localsbom:source",
+          "value": "lock"
+        },
+        {
+          "name": "localsbom:declared-constraint",
+          "value": "~=8.1"
+        },
+        {
+          "name": "localsbom:evidence",
+          "value": "/mnt2/zjh/code/Goleta/session_42/a/examples/py-app/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/click@8.1.7",
+      "scope": "required",
+      "type": "library",
+      "version": "8.1.7"
+    },
+    {
+      "bom-ref": "python:idna@3.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "idna",
+      "properties": [
+        {
+          "name": "localsbom:ecosystem",
+          "value": "python"
+        },
+        {
+          "name": "localsbom:source",
+          "value": "lock"
+        },
+        {
+          "name": "localsbom:declared-constraint",
+          "value": ""
+        },
+        {
+          "name": "localsbom:evidence",
+          "value": "/mnt2/zjh/code/Goleta/session_42/a/examples/py-app/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/idna@3.6",
+      "scope": "required",
+      "type": "library",
+      "version": "3.6"
+    },
+    {
+      "bom-ref": "python:pytest@8.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "pytest",
+      "properties": [
+        {
+          "name": "localsbom:ecosystem",
+          "value": "python"
+        },
+        {
+          "name": "localsbom:source",
+          "value": "lock"
+        },
+        {
+          "name": "localsbom:declared-constraint",
+          "value": ">=8.0"
+        },
+        {
+          "name": "localsbom:evidence",
+          "value": "/mnt2/zjh/code/Goleta/session_42/a/examples/py-app/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/pytest@8.1.1",
+      "scope": "required",
+      "type": "library",
+      "version": "8.1.1"
+    },
+    {
+      "bom-ref": "python:requests@2.31.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "name": "requests",
+      "properties": [
+        {
+          "name": "localsbom:ecosystem",
+          "value": "python"
+        },
+        {
+          "name": "localsbom:source",
+          "value": "lock"
+        },
+        {
+          "name": "localsbom:declared-constraint",
+          "value": ">=2.31,<3"
+        },
+        {
+          "name": "localsbom:evidence",
+          "value": "/mnt2/zjh/code/Goleta/session_42/a/examples/py-app/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/requests@2.31.0",
+      "scope": "required",
+      "type": "library",
+      "version": "2.31.0"
+    },
+    {
+      "bom-ref": "python:urllib3@2.2.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "urllib3",
+      "properties": [
+        {
+          "name": "localsbom:ecosystem",
+          "value": "python"
+        },
+        {
+          "name": "localsbom:source",
+          "value": "lock"
+        },
+        {
+          "name": "localsbom:declared-constraint",
+          "value": ""
+        },
+        {
+          "name": "localsbom:evidence",
+          "value": "/mnt2/zjh/code/Goleta/session_42/a/examples/py-app/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/urllib3@2.2.1",
+      "scope": "required",
+      "type": "library",
+      "version": "2.2.1"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "python:certifi@2024.2.2",
+        "python:charset-normalizer@3.3.2",
+        "python:idna@3.6",
+        "python:urllib3@2.2.1"
+      ],
+      "ref": "python:requests@2.31.0"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "project:example-py-app@0.4.2",
+      "name": "example-py-app",
+      "type": "application",
+      "version": "0.4.2"
+    },
+    "properties": [
+      {
+        "name": "localsbom:root",
+        "value": "/mnt2/zjh/code/Goleta/session_42/a/examples/py-app"
+      },
+      {
+        "name": "localsbom:lockfiles",
+        "value": "/mnt2/zjh/code/Goleta/session_42/a/examples/py-app/uv.lock"
+      }
+    ]
+  },
+  "serialNumber": "",
+  "specVersion": "1.5",
+  "version": 1
+}
