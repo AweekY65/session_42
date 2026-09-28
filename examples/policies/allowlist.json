@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "policy": "allowlist",
+  "allow": [
+    "MIT",
+    "Apache-2.0",
+    "BSD-3-Clause",
+    "BSD-2-Clause",
+    "ISC",
+    "Python-2.0",
+    "MPL-2.0"
+  ],
+  "deny": [
+    "GPL-3.0-only",
+    "GPL-3.0-or-later",
+    "AGPL-3.0-only",
+    "WTFPL"
+  ],
+  "onUnknown": "error",
+  "ignore": []
+}

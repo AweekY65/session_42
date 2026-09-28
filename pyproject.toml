@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offline-sbom-tool"
+version = "1.0.0"
+description = "Local, offline software supply chain SBOM generator and validator for Python and Node.js projects"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Local SBOM Tool Contributors"}]
+keywords = ["sbom", "cyclonedx", "supply-chain", "offline", "license", "security"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Intended Audience :: Developers",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+sbomtool = "sbomtool.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sbomtool*"]
+exclude = ["tests*", "examples*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
